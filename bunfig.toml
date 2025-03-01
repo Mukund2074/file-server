@@ -1,2 +1,5 @@
 [build]
 target = "node"
+
+[build.output]
+format = "cjs" # CommonJS format, commonly used for Node.js
