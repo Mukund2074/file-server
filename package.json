@@ -3,8 +3,8 @@
   "module": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "bun run --env-File=.env --watch server.js",
-    "build": "bun build server.js --target node --outdir dist/ --format cjs"
+    "build": "bun build server.js --target node --outdir dist/ --format cjs",
+    "dev": "bun run --env-File=.env --watch server.js"
   },
   "devDependencies": {
     "@types/bun": "latest"
