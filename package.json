@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun run --env-File=.env --watch server.js",
-    "build": "bun run --env-File=.env server.js"
+    "build" : "bun build server.js --target node"
   },
   "devDependencies": {
     "@types/bun": "latest"
